@@ -41,6 +41,17 @@ nav {
     transition: 0.5s;
 }
 
+#a {
+    text-decoration: none !important;
+    color: white !important;
+    position: relative !important;
+    font-size: 16px !important;
+    text-transform: capitalize !important;
+    font-family: 'Raleway', sans-serif !important;
+    transition: 0.5s !important;
+    visibility: visible;
+}
+
 #div1 :nth-child(7)::after {
     content: '';
     position: static !important;
@@ -199,6 +210,10 @@ nav {
     border-radius: 37px;
 }
 
+#div1 :nth-child(6) {
+    display: none;
+}
+
 footer {
     background-color: gold;
     color: white;
@@ -207,7 +222,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 0 0 15px;
-    height: 16vh;
+    /* height: 16vh; */
     border-top: grey 1px solid;
     background: linear-gradient(90deg, rgba(255, 228, 140, 1) 0%, rgba(255, 206, 0, 1) 50%, rgba(229, 178, 0, 1) 100%);
     /* background-clip: text; */
@@ -713,6 +728,10 @@ button {
     line-height: 25px;
 }
 
+#a2 {
+    visibility: visible;
+}
+
 #divchild1>div {
     display: flex;
     flex-direction: column;
@@ -781,7 +800,7 @@ button {
 #sectionsignup {
     background-color: black;
     position: fixed;
-    top: 110px;
+    top: 8px;
     width: 75%;
     display: flex;
     margin: 0 53px 0 209px;
@@ -902,8 +921,9 @@ button {
     }
 
     #sectionsignup {
-        top: 35px;
+        top: 9px;
         margin: 0 40px 0 121px;
+        height: 100%;
     }
 }
 
@@ -916,8 +936,9 @@ button {
     #sectionsignup {
         width: 95%;
         margin: 0;
-        top: 35px;
+        top: 5px;
         left: 10px;
+        height: 100%;
     }
 
     #divsectionsignup {
@@ -1093,8 +1114,9 @@ button {
     #sectionsignup {
         width: 95%;
         margin: 0;
-        top: 17px;
+        top: -41px;
         left: 3px;
+        height: 100%;
     }
 
     #div2sectionsignup {
