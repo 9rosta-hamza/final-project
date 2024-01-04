@@ -8,6 +8,7 @@ click.addEventListener('click', function PRÉINSCRIVEZ(event) {
         this.prenom = prenom;
         this.email = email;
         this.COACH = COACH
+        // window.location.href = 'COACH sportif.html';
     }
     const email = document.querySelector("#email2").value;
     const prenom = document.querySelector("#prenom2").value;
