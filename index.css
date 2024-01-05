@@ -233,7 +233,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 0 0 15px;
-    /* height: 16vh; */
+    height: 16vh;
     border-top: grey 1px solid;
     background: linear-gradient(90deg, rgba(255, 228, 140, 1) 0%, rgba(255, 206, 0, 1) 50%, rgba(229, 178, 0, 1) 100%);
     /* background-clip: text; */
